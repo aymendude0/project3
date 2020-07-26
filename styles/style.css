@@ -258,3 +258,59 @@ img {
 body {
   background-color: black;
 }
+
+h1,
+h2 {
+  font-family: 'Ranchers', cursive;
+  color: white;
+  text-shadow: grey;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1700px;
+  text-align: center;
+}
+
+.imageContainer {
+  margin: 0 auto;
+  width: 500px;
+}
+
+input[type=text] {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebebeb;
+}
+
+button {
+  border: none;
+  background-color: papayawhip;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 350px;
+  border-radius: 5px;
+  font-family: 'Ranchers', cursive;
+  color: black;
+  font-size: 30px;
+}
+
+@media (max-width: 546px) {
+  .imageContainer {
+    width: 400px;
+  }
+}
